@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a225b772-df7b-491f-a499-26136963d6ab": {
+      "ProjectGuid": "a225b772-df7b-491f-a499-26136963d6ab",
+      "DisplayName": "FoodUI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
