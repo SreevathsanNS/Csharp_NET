@@ -572,9 +572,12 @@
 </div> 
 </div>
 </div> 
-<form id="contact-form" action="assets/contact.php" method="post">
+<form id="contact-form"  action="WebForm2.aspx" method="post">
 <div class="row">
  
+
+<!--LOGIN-->
+<!--
 <div class="col-lg-6">
 <div class="single_form mt-30">
     <input name="email" type="email" placeholder="Email"/>
@@ -586,6 +589,8 @@
     <input name="password" type="password" placeholder="Password"/>
 </div> 
 </div>
+-->
+
 
 <!--
 <div class="col-lg-12">
@@ -602,7 +607,7 @@
 -->
 <div class="col-lg-12">
 <div class="single_form text-center mt-30">
-<button class="main-btn">LOGIN</button>
+<button class="main-btn" onclick="onOpen">LOGIN</button>
 </div> 
  </div>
 </div> 

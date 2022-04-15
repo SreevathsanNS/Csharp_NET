@@ -7,16 +7,19 @@ using System.Web.UI.WebControls;
 
 namespace FoodUI
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
-        protected void onOpen(object sender, EventArgs e)
+        protected void submit_click(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm2.aspx");
+            String s = TextBox1.Text;//user.Text.ToString();
+
         }
+
+
     }
 }
